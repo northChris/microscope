@@ -1,6 +1,6 @@
 Template.postItem.helpers({
   ownPost: function() {
-  return this.uerId === Meteor.user.Id();
+  return this.userId === Meteor.user.Id();
 
 },
   domain:function() {
